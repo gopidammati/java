@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bablu Fresh Vegetables A-Z</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZDfxaFqtsI0V6d-pYZfZwWNh6FL0pfmZGzw&s');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #ffffff;
+    }
+    header {
+      background-color: rgba(0, 100, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      color: #fff;
+    }
+    .content {
+      background-color: rgba(0, 100, 0, 0.7);
+      padding: 20px;
+    }
+    .offer-box, .contact-box {
+      background-color: #2e8b57;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    .vegetable-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .veg-item {
+      background-color: #006400;
+      padding: 10px;
+      border-radius: 8px;
+      width: 200px;
+      text-align: center;
+      color: #fff;
+    }
+    .veg-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>Bablu Fresh Vegetables A-Z</header>
+
+  <div class="content">
+    <div class="offer-box">
+      <p>🔥 Any person can buy 10 items of vegetables for just ₹249!</p>
+      <p>🮺 Each vegetable costs ₹50 for 1kg and ₹30 for 500g.</p>
+      <p>🚚 Delivery in just 30 minutes!</p>
+      <p>🌿 Always fresh vegetables guaranteed.</p>
+      <p>🎁 First 10 customers get 50% OFF!</p>
+    </div>
+
+    <h2 style="text-align: center;">Our Vegetables</h2>
+    <div class="vegetable-gallery">
+      <div class="veg-item">
+        <img src="https://t4.ftcdn.net/jpg/05/37/04/61/360_F_537046123_s8JVn2NrClPQDOryhSm8jonYZPfIzPRX.jpg" alt="Tomato">
+        <p>Tomato<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoIJjbXvJZeiMDlC1KQpUEgsKXLs8V91bRhg&s" alt="Green Chili">
+        <p>Green Chili<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcvysOtV2vg_upVLMDp8OYut8sIqaPJRnOuw&s" alt="Carrot">
+        <p>Carrot<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhh8j7ISf4wwGn0ohxsw-97sMFsfRJBd2oEQ&s" alt="Brinjal">
+        <p>Brinjal<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1_G-TdGVLhskcpJVkYGx42P76E6SjW3_30Q&s" alt="Green Beans">
+        <p>Green Beans<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://t4.ftcdn.net/jpg/00/69/19/09/240_F_69190946_dO9NYtUPGwAcKBR3pzeuwNkQy9bRCDbg.jpg" alt="Garlic">
+        <p>Garlic<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://t3.ftcdn.net/jpg/00/93/87/58/240_F_93875874_u9pFhj8A6MNFchnUgNTAAAWnmIA4F4Y0.jpg" alt="Ginger">
+        <p>Ginger<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://t3.ftcdn.net/jpg/01/91/55/42/240_F_191554261_Kfn9mPkFP2lRmNuSkLkoe6yMnOdC1GUC.jpg" alt="Drumstick">
+        <p>Drumstick<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://t4.ftcdn.net/jpg/02/49/93/33/240_F_249933303_rB82fjbNuZdT3444cZfutFG1Wau0T1VA.jpg" alt="Cabbage">
+        <p>Cabbage<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+      <div class="veg-item">
+        <img src="https://t3.ftcdn.net/jpg/00/41/30/10/240_F_41301053_AbLi3hlosbLajBo7lQdNyfGz9eusxY1x.jpg" alt="Spinach">
+        <p>Spinach<br>1kg: ₹50 | 500g: ₹30</p>
+      </div>
+    </div>
+
+    <div class="contact-box">
+      <h3>Contact & Delivery</h3>
+      <p>📍 Address: Koritipadu Road 1st Line, Guntur</p>
+      <p>📞 Phone: 9985560232</p>
+      <p>📧 Email: gopi.dammati@gmail.com</p>
+    </div>
+  </div>
+</body>
+</html>
